@@ -46,6 +46,7 @@ main {
 }
 
 .testimonial__sub-title {
+  font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 4rem;
 }
@@ -59,7 +60,7 @@ main {
   margin-bottom: 3rem;
 }
 
-.testimonial__img img {
+.testimonial__client {
   display: block;
   border-radius: 50%;
 }
@@ -67,6 +68,10 @@ main {
 .testimonial__job {
   font-size: 1.4rem;
   margin-bottom: 3rem;
+}
+
+.testimonial__text {
+  text-align: justify;
 }
 
 .testimonial__buttons {
