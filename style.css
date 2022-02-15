@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #ffd97c;
+  color: #53535a;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 100vh;
+}
+
+.testimonial {
+  max-width: 50rem;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 5rem 7rem;
+  border-radius: 2rem;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: 0px 12px 18px 2px rgba(0, 0, 0, 0.55);
+  position: relative;
+}
+
+.testimonial__title {
+  font-size: 4.4rem;
+}
+
+.testimonial__sub-title {
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.testimonial__img {
+  width: 16rem;
+  height: 16rem;
+  padding: 1rem;
+  border: 10px solid #53535a;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.testimonial__img img {
+  display: block;
+  border-radius: 50%;
+}
+
+.testimonial__job {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+.testimonial__buttons {
+  width: 4.4rem;
+  height: 4.4rem;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0px 6px 14px 2px rgba(0, 0, 0, 0.55);
+  transition: all 200ms ease-in-out;
+}
+
+.testimonial__buttons:hover {
+  transform: scale(1.1);
+}
+
+.testimonial__buttons:active {
+  transform: scale(1);
+}
+
+.prev-button {
+  top: 50%;
+  left: 10%;
+}
+
+.next-button {
+  top: 50%;
+  right: 10%;
+}
