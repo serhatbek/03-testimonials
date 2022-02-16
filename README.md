@@ -1,6 +1,6 @@
 # Client Testimonials
 
-Client Testimonials small Vanilla JS project to get better at JavaScript DOM manipulation.
+Client Testimonials is a small Vanilla JS project to get better at JavaScript DOM manipulation.
 
 ![Client Testimonial](./img/client-testimonials.png)
 
